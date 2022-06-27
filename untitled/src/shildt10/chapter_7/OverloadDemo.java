@@ -5,9 +5,9 @@ public class OverloadDemo {
         System.out.println("Have no parameters");
     }
 
-    void test (int a){
-        System.out.println("One parameter 'a' = "  + a);
-    }
+//    void test (int a){
+//        System.out.println("One parameter 'a' = "  + a);
+//    }
 
     void test(int a, int b){
         System.out.println("Two parameter 'a' and 'b' " + " a "+ a + " b " + b);
